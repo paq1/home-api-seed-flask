@@ -19,4 +19,4 @@ class DocumentReadComponent:
         def get_documents(user: str, entity_id: str):  # put application's code here
             document_detail = DocumentDetails(entity_id, "category")
             view = DocumentView(document_detail)
-            return jsonify(view.to_map_schema()), 200
+            return jsonify(view.to_dict()), 200

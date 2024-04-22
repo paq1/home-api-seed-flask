@@ -12,7 +12,7 @@ class MainComponent:
         self.document_write_component = DocumentWriteComponent(self.app, self.mongo_component)
         self.document_read_component = DocumentReadComponent(self.app)
 
-    def run(self):
+    def start_server(self):
         self.app.run()
 
     def delete(self):
