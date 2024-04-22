@@ -1,4 +1,4 @@
-from src.models.shared.CanBeDict import CanBeDict
+from src.models.shared.can_be_dict import CanBeDict
 
 
 class DocumentDBO(CanBeDict):

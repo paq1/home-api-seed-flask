@@ -1,5 +1,5 @@
 from src.models.documents.document_details import DocumentDetails
-from src.models.shared.CanBeDict import CanBeDict
+from src.models.shared.can_be_dict import CanBeDict
 
 
 class DocumentView(CanBeDict):
