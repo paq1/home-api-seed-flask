@@ -1,13 +1,11 @@
+import uuid
+
 from flask import Flask, request, jsonify
 
 from src.api.documents.dbo.document_dbo import DocumentDBO
-import uuid
-
 from src.api.documents.repository_documents_mongo import RepositoryDocumentsMongo
 from src.api.helpers.mongo.mongo_component import MongoComponent
 from src.core.helpers.entity import Entity
-from src.models.shared.view.message_view import MessageView
-from src.models.shared.view.standard.no_json_api import NoJsonApi
 from src.models.shared.view.standard.single_json_api import SingleJsonApi
 
 
